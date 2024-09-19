@@ -11,17 +11,21 @@ weeklyshower = str(weeklyshower)
 
 print ("On average, you spend " + weeklyshower + " mintues a week." )
 
+
+#Numbers are acting funny from line 19 to 28. Investigate later
+
 # Weekly water consumption
-# According to EPA, 2.5 gallons of water are spent per minute in a shower
-watergallons = int(2.5) 
-waterweek = (watergallons * weeklyshower)
+# According to EPA, 2.5 gallons of water are spent per minute in a shower (Round up to 3)
+
+waterweek = (int(3) * weeklyshower)
 waterweek = str(waterweek)
 
 print ("That means you spend roughly " + waterweek + " gallons of water per week on showers alone.")
 
-# Yearly water consumption math
-yearweeks = int(52.143) # weeks per year
-wateryear = (waterweek * yearweeks)
+# Yearly water consumption math 
+
+wateryear = (waterweek * int(52))
+wateryear = int(wateryear)
 wateryear = str(wateryear)
 
 print ("That is equivalent to " + wateryear + "gallons per year")
