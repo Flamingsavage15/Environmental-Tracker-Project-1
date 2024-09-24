@@ -35,14 +35,14 @@ print (' ')
 
 # Project Version 1.2 : Meal... 
 print (' ')
-mealday = input('Now on average, how many meals you you eat per day: ')
+mealday = input('Now on average, xxx per xxx: ')
 
 mealday = int(mealday)
 mealweek = (int(mealday) * int(7))
 mealweek = str(mealweek)
 
 print (' ')
-print ('This means you eat ' + mealweek + ' on average.')
+print ('This means you xxx ' + mealweek + ' xxx on average.')
 print (' ')
 
 # Project Version 1.3 : Miles Driven (Advanced; Teach myself to work on now)
